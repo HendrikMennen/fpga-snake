@@ -22,11 +22,11 @@ set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
 set_global_assignment -name VHDL_FILE Generated/BinaryToBcd.vhd
 set_global_assignment -name VHDL_FILE Generated/BinaryToBcdDigit.vhd
 set_global_assignment -name VHDL_FILE Generated/Input_Debouncer.vhd
-set_global_assignment -name VHDL_FILE Generated/LED_Matrix.vhd
 set_global_assignment -name VHDL_FILE Generated/LEDSnake.vhd
+set_global_assignment -name VHDL_FILE Generated/LED_Matrix.vhd
+set_global_assignment -name VHDL_FILE Generated/SPI_Master.vhd
 set_global_assignment -name VHDL_FILE Generated/Single_Port_RAM.vhd
 set_global_assignment -name VHDL_FILE Generated/Single_Port_ROM.vhd
-set_global_assignment -name VHDL_FILE Generated/SPI_Master.vhd
 set_global_assignment -name VHDL_FILE Generated/String_Type_Package.vhd
 set_global_assignment -name VHDL_FILE Generated/UART_Interface.vhd
 set_global_assignment -name VHDL_FILE Libraries/tb_xoroshiro128plus.vhd
@@ -37,7 +37,6 @@ set_location_assignment PIN_H1 -to VS[0]
 set_location_assignment PIN_B7 -to VS[1]
 set_location_assignment PIN_L1 -to VS[2]
 set_location_assignment PIN_K13 -to VS_EN
-set_location_assignment PIN_D13 -to LED
 set_location_assignment PIN_M2 -to LeftButton
 set_location_assignment PIN_K2 -to RightButton
 set_location_assignment PIN_L2 -to DIN_O

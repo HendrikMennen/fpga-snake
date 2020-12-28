@@ -13,19 +13,19 @@
       <Header>Input_Debouncer.vhd</Header>
     </Items>
     <Items xsi:type="ProjectFileVHDL">
+      <Header>LEDSnake.vhd</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVHDL">
       <Header>LED_Matrix.vhd</Header>
     </Items>
     <Items xsi:type="ProjectFileVHDL">
-      <Header>LEDSnake.vhd</Header>
+      <Header>SPI_Master.vhd</Header>
     </Items>
     <Items xsi:type="ProjectFileVHDL">
       <Header>Single_Port_RAM.vhd</Header>
     </Items>
     <Items xsi:type="ProjectFileVHDL">
       <Header>Single_Port_ROM.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>SPI_Master.vhd</Header>
     </Items>
     <Items xsi:type="ProjectFileVHDL">
       <Header>String_Type_Package.vhd</Header>
@@ -76,6 +76,15 @@
   <Items xsi:type="ProjectFileGHDP">
     <Header>LEDSnake_Sim.ghdp</Header>
   </Items>
-  <SelectedExtensionsSave />
+  <CruviHSExtensions>
+    <string xsi:nil="true" />
+  </CruviHSExtensions>
+  <CruviLSExtensions>
+    <string>LevelShifterExtension</string>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
+  <UseShield>false</UseShield>
 </ProjectRoot>

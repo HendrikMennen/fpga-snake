@@ -14,7 +14,6 @@ Component LEDSnake_tb()
     (
         RX => RX,
         TX => TX,
-        LED => LED,
         CS_O => CS_O,
         CLK_O => CLK_O,
         DIN_O => DIN_O,
@@ -25,7 +24,6 @@ Component LEDSnake_tb()
 
     SIGNAL RX : STD_LOGIC ;
     SIGNAL TX : STD_LOGIC ;
-    SIGNAL LED : STD_LOGIC ;
     SIGNAL CS_O : STD_LOGIC ;
     SIGNAL CLK_O : STD_LOGIC ;
     SIGNAL DIN_O : STD_LOGIC ;
@@ -33,6 +31,36 @@ Component LEDSnake_tb()
     SIGNAL LeftButton : STD_LOGIC ;
     SIGNAL CLK : STD_LOGIC := '0';
 
+
+    Process Sim_RX()
+    {
+        While(finished /= '1')
+        {
+            wait;
+        }
+        wait;
+    }
+
+    Process Sim_RightButton()
+    {
+        While(finished /= '1')
+        {
+            RightButton <= '1';
+            wait for 1 ms;          
+        }
+        wait;
+    }
+
+    Process Sim_LeftButton()
+    {
+        While(finished /= '1')
+        {
+            LeftButton <= '1';
+            wait for 1 ms;
+            wait;
+        }
+        wait;
+    }
 
     Process Sim_CLK()
     {
