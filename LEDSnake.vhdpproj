@@ -1,90 +1,28 @@
-<?xml version="1.0"?>
-<ProjectRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Header>LEDSnake</Header>
-  <Items xsi:type="ProjectFolder">
-    <Header>Generated</Header>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>BinaryToBcd.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>BinaryToBcdDigit.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>Input_Debouncer.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>LEDSnake.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>LED_Matrix.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>SPI_Master.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>Single_Port_RAM.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>Single_Port_ROM.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>String_Type_Package.vhd</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>UART_Interface.vhd</Header>
-    </Items>
-  </Items>
-  <Items xsi:type="ProjectFolder">
-    <Header>Libraries</Header>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>BinaryToBcd.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>BinaryToBcdDigit.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>Input_Debouncer.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>LED_Matrix.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>Single-Port_RAM.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>Single-Port_ROM.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>SPI_Master.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>String_Functions.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>String_Type.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDP">
-      <Header>UART.vhdp</Header>
-    </Items>
-    <Items xsi:type="ProjectFileVHDL">
-      <Header>tb_xoroshiro128plus.vhd</Header>
-    </Items>
-  </Items>
-  <Items xsi:type="ProjectFileVHDP">
-    <Header>LEDSnake.vhdp</Header>
-  </Items>
-  <Items xsi:type="ProjectFileGHDP">
-    <Header>LEDSnake_Sim.ghdp</Header>
-  </Items>
-  <CruviHSExtensions>
-    <string xsi:nil="true" />
-  </CruviHSExtensions>
-  <CruviLSExtensions>
-    <string>LevelShifterExtension</string>
-    <string xsi:nil="true" />
-    <string xsi:nil="true" />
-    <string xsi:nil="true" />
-  </CruviLSExtensions>
-  <IOVoltage>0</IOVoltage>
-  <UseShield>false</UseShield>
-</ProjectRoot>
+﻿<Project>
+  <ItemGroup>
+    <File Include="Generated/BinaryToBcd.vhd" />
+    <File Include="Generated/BinaryToBcdDigit.vhd" />
+    <File Include="Generated/Input_Debouncer.vhd" />
+    <File Include="Generated/LEDSnake.vhd" />
+    <File Include="Generated/LED_Matrix.vhd" />
+    <File Include="Generated/SPI_Master.vhd" />
+    <File Include="Generated/Single_Port_RAM.vhd" />
+    <File Include="Generated/Single_Port_ROM.vhd" />
+    <File Include="Generated/String_Type_Package.vhd" />
+    <File Include="Generated/UART_Interface.vhd" />
+    <File Include="Libraries/BinaryToBcd.vhdp" />
+    <File Include="Libraries/BinaryToBcdDigit.vhdp" />
+    <File Include="Libraries/Input_Debouncer.vhdp" />
+    <File Include="Libraries/LED_Matrix.vhdp" />
+    <File Include="Libraries/SPI_Master.vhdp" />
+    <File Include="Libraries/Single-Port_RAM.vhdp" />
+    <File Include="Libraries/Single-Port_ROM.vhdp" />
+    <File Include="Libraries/String_Functions.vhdp" />
+    <File Include="Libraries/String_Type.vhdp" />
+    <File Include="Libraries/UART.vhdp" />
+    <File Include="Libraries/tb_xoroshiro128plus.vhd" />
+    <File Include="LEDSnake.vhdp" />
+    <File Include="LEDSnake_Sim.ghdp" />
+  </ItemGroup>
+  <PropertyGroup />
+</Project>

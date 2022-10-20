@@ -1,0 +1,30 @@
+# auto-generated
+[Libraries]
+work.files = [
+	'Libraries/tb_xoroshiro128plus.vhd',
+	'Generated/BinaryToBcd.vhd',
+	'Generated/BinaryToBcdDigit.vhd',
+	'Generated/Input_Debouncer.vhd',
+	'Generated/LEDSnake.vhd',
+	'Generated/LED_Matrix.vhd',
+	'Generated/SPI_Master.vhd',
+	'Generated/Single_Port_RAM.vhd',
+	'Generated/Single_Port_ROM.vhd',
+	'Generated/String_Type_Package.vhd',
+	'Generated/UART_Interface.vhd'
+]
+[libraries.work]
+files = [
+	'Libraries/tb_xoroshiro128plus.vhd',
+	'Generated/BinaryToBcd.vhd',
+	'Generated/BinaryToBcdDigit.vhd',
+	'Generated/Input_Debouncer.vhd',
+	'Generated/LEDSnake.vhd',
+	'Generated/LED_Matrix.vhd',
+	'Generated/SPI_Master.vhd',
+	'Generated/Single_Port_RAM.vhd',
+	'Generated/Single_Port_ROM.vhd',
+	'Generated/String_Type_Package.vhd',
+	'Generated/UART_Interface.vhd'
+]
+# auto-generated-end
